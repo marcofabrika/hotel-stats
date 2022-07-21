@@ -4,7 +4,7 @@ import { parse } from 'csv-parse/browser/esm/sync';
 import ReactLoading from 'react-loading';
 import './App.css';
 
-const googleCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSnTrkzYm-Z3dD7erHNV_N7-EbAXJh1MdnBeajgWx2R4mHbxqwp8vzIwk6UFRm50Z_GaIovARIGwodU/pub?output=csv';
+const googleCsvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vROMaUf74PoO-ETYhXuMtwUnlCOwdtmsX2irscroY-7ke8SKQfejIMGQM8XCmRvuzB8eaO0TcFtWliV/pub?output=csv';
 const baseUrl = googleCsvUrl.replace('pub?output=csv', '');
 
 const sheetIdList = [
